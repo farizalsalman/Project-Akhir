@@ -807,7 +807,7 @@ input[type='checkbox'] {
 	box-sizing: border-box;
 	background: white;
 	text-align: center;
-	height: 640px;
+	height: 653px;
 	width: 669px;
 	padding: 20px;
 	border-radius: 5px;
@@ -825,9 +825,9 @@ input[type='checkbox'] {
 	transition: .4s;
   }
   .modal-box .fa-times{
-	position: absolute;
-	top: 31px;
-    right: 299px;
+	position: relative;
+	top: -20px;
+    right: -309px;
 	background: #48DBFB;
 	height: 45px;
 	width: 50px;
@@ -856,8 +856,10 @@ input[type='checkbox'] {
   .modal-box header{
 	font-size: 31px;
 	font-family: 'Lobster Two';
+	margin-top: -46px;
 	margin-bottom: 10px;
   }
+  
   .modal-box p{
 	margin-bottom: 10px;
 	line-height: 20px;
